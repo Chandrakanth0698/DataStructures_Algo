@@ -36,7 +36,7 @@ class LinkedList:
             popped_node = self.head
             self.head = None
             self.tail = None
-            self.length -= 1
+            self.length = 0
             return popped_node
         else:
             temp = self.head
